@@ -7,13 +7,13 @@ This YAML template creates an AWS infrastructure that includes an EC2 instance, 
 Install the AWS CLI on your computer.
 Configure the CLI with your AWS credentials using the "aws configure" command.
 Create a Cloud Formation template file in YAML or JSON format.
-aws cloudformation create-stack --stack-name  stack-name --template-body file://path/to/my/template.yaml
+- " aws cloudformation create-stack --stack-name  stack-name --template-body file://path/to/my/template.yaml "
 
 # Verify
-aws cloudformation describe-stacks --stack-name  stack-name
+> aws cloudformation describe-stacks --stack-name  stack-name
 
 # Update
-aws cloudformation update-stack --stack-name  stack-name --template-body file://path/to/my/template.yaml
+> aws cloudformation update-stack --stack-name  stack-name --template-body file://path/to/my/template.yaml
 
 # Delete
-aws cloudformation delete-stack --stack-name  stack-name
+> aws cloudformation delete-stack --stack-name  stack-name
