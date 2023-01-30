@@ -1,5 +1,5 @@
 
-## CLOUDFORMATION TEMPLATE that creates several interacting microservices (e.g. docker container; AWS Lambda
+## CLOUDFORMATION TEMPLATE that creates several interacting microservices // docker container; AWS Lambda //
 This YAML template creates an AWS infrastructure that includes an EC2 instance, EC2 security group, public subnet, VPC, Lambda function, IAM role, Docker container, and ECS cluster. The EC2 instance and Lambda function have their configurations specified, while the Docker container and ECS cluster have certain properties set. The template also includes two parameters, ContainerName and ImageName, that can be customized.
 
 # Commands:
